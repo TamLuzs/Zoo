@@ -1,0 +1,124 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+
+body{
+	line-height: 1.6;
+	background-color: #2E8B57;
+}
+
+.Pagina{
+	width: 860px;
+	font-family: 'Serifs';
+}
+
+main{
+	background: url(../img/fundo.jpg), #3CB371;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 10px; 
+	height: 130px;
+}
+
+h1{
+	font-family: 'Pacifico';
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav{
+	padding-top: 20px;
+	text-align: center;
+}
+
+nav a{
+	background-color: #2E8B57;
+	padding: 10px;
+	margin-left: 15px ;
+	border-radius: 35%;
+}
+
+nav a:hover{
+	background-color: #fff;
+	color: #2E8B57;
+	font-weight: bolder;
+}
+
+section{
+	margin-top: 160px;
+	width: 800px;
+}
+
+article{
+	background-color: #8FBC8F;
+	border: 5px dotted #3CB371;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+}
+
+article a{
+	padding: 8px;
+	background-color: #2E8B57;
+}
+
+h2{
+	padding-bottom: 15px;
+	font-family: 'Pacifico';
+	text-transform: uppercase;
+}
+
+.Postagem{
+	margin-top: 20px;
+	text-align: justify;
+}
+
+dt,dd{
+	text-align: justify;
+	padding-top: 10px;
+}
+
+dt{
+	text-transform: uppercase;
+}
+
+.clear{
+		clear: both;
+}
+
+footer{
+	padding-top: 28px;
+	height: 70px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #3CB371;
+	width: 100%;
+}
+
+#Galeria{
+    display: flex; 
+}
+
+
+#Galeria .Fotografias img {
+    height: 100%;
+    width: 100%;
+}
+
+.about{
+	text-align: justify;
+}
+.about h3{
+	font-family: 'Pacifico';
+	text-transform: uppercase;
+}
