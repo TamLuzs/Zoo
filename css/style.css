@@ -93,7 +93,7 @@ dt{
 }
 
 .clear{
-		clear: both;
+	clear: both;
 }
 
 footer{
@@ -109,7 +109,6 @@ footer{
     display: flex; 
 }
 
-
 #Galeria .Fotografias img {
     height: 100%;
     width: 100%;
@@ -118,6 +117,7 @@ footer{
 .about{
 	text-align: justify;
 }
+
 .about h3{
 	font-family: 'Pacifico';
 	text-transform: uppercase;
